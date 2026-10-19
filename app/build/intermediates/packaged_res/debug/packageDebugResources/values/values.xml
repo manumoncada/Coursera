@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_primary">#315DA8</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#202124</color>
+    <style name="Theme.ContactoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#315DA8</item>
+        <item name="colorSecondary">#5478B8</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+</resources>

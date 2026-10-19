@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color blue_primary
+color surface
+color text_primary
+id btnEditar
+id btnSiguiente
+id etDescripcion
+id etEmail
+id etFecha
+id etNombre
+id etTelefono
+id tvDescripcion
+id tvEmail
+id tvFecha
+id tvNombre
+id tvTelefono
+layout activity_confirmacion
+layout activity_formulario
+style Theme.ContactoApp

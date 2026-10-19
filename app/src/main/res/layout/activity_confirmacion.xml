@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F6F8FC" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Confirma tus datos" android:textColor="#202124"
+            android:textSize="26sp" android:textStyle="bold" android:layout_marginBottom="6dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Revisa que la información sea correcta."
+            android:textColor="#656B75" android:textSize="15sp" android:layout_marginBottom="22dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Nombre completo" android:textColor="#315DA8" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvNombre" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="—" android:textColor="#202124" android:textSize="17sp" android:paddingBottom="16dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento" android:textColor="#315DA8" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvFecha" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="—" android:textColor="#202124" android:textSize="17sp" android:paddingBottom="16dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Teléfono" android:textColor="#315DA8" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvTelefono" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="—" android:textColor="#202124" android:textSize="17sp" android:paddingBottom="16dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Correo electrónico" android:textColor="#315DA8" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvEmail" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="—" android:textColor="#202124" android:textSize="17sp" android:paddingBottom="16dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Descripción del contacto" android:textColor="#315DA8" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvDescripcion" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="—" android:textColor="#202124" android:textSize="17sp" android:paddingBottom="24dp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEditar" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Editar datos"
+            android:textAllCaps="false" android:minHeight="52dp" app:cornerRadius="14dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.contactoapp-debug-31:/layout_activity_confirmacion.xml.flat",
+        "source": "com.example.contactoapp-main-33:/layout/activity_confirmacion.xml"
+    },
+    {
+        "merged": "com.example.contactoapp-debug-31:/layout_activity_formulario.xml.flat",
+        "source": "com.example.contactoapp-main-33:/layout/activity_formulario.xml"
+    }
+]
